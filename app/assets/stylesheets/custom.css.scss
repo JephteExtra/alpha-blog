@@ -1,5 +1,46 @@
 @import "bootstrap";
 
 .navbar {
-  background-color: rgb(28, 135, 177);
+  background-color: black !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+}
+
+#jumbotron {
+  background-image: asset-url("patrick-fore-0gkw_9fy0eQ-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
 }
