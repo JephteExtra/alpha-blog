@@ -8,6 +8,14 @@
   color: #fff !important;
 }
 
+.navbar-toggler {
+  border-color: #d3d3d3;
+}
+
+.navbar-tggler-icon {
+  border-color: #d3d3d3;
+}
+
 html,
 body {
   height: 100%;
@@ -15,14 +23,14 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-  background-color: lightgray;
+  background-color: #d3d3d3;
 }
 
 /* Other Classes for Page Styling */
 
 body {
-  background: #007bff;
-  background: linear-gradient(to right, #0062e6, #33aeff);
+  background: #fff;
+  // background: linear-gradient(to right, #0062e6, #33aeff);
 }
 
 #jumbotron {
