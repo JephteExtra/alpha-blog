@@ -6,7 +6,6 @@ class ApplicationController < ActionController::Base
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
   end
 
-
   def logged_in?
     !!current_user # turning the method current_user into a boolean
   end
